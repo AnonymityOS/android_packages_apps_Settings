@@ -78,4 +78,8 @@
     <string name="dashboard_conditions_title">Уведомления в главном меню</string>
     <string name="summary_dashboard_conditions_enabled">Уведомления в главном меню включены</string>
     <string name="summary_dashboard_conditions_disabled">Уведомления в главном меню выключены</string>
+
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Цветовое оповещение</string>
+    <string name="battery_saver_color_summary">Окрасить строку состояния и панель навигации, когда активирован режим энергосбережения</string>
 </resources>
