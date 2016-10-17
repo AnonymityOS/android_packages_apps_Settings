@@ -136,6 +136,11 @@ import com.android.settingslib.drawer.Tile;
 import com.elixir.settings.ElixirSettings;
 
 import java.net.URISyntaxException;
+import com.elixir.settings.fragments.FlingSettings;
+import com.elixir.settings.fragments.NavbarSettings;
+import com.elixir.settings.fragments.SmartbarSettings;
+import com.elixir.settings.fragments.PulseSettings;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -360,6 +365,10 @@ public class SettingsActivity extends SettingsDrawerActivity
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName()
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
 
