@@ -133,6 +133,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.elixir.settings.fragments.HAFRAppListActivity" />
+
         <activity android:name=".Settings$ElixirSettings"
             android:label="@string/header_category_elixir">
             <intent-filter android:priority="4">
