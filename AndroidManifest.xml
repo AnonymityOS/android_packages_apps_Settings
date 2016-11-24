@@ -970,8 +970,29 @@
                 android:value="com.android.settings.category.elixir" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.elixir.settings.ElixirSettings" />
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/elixir_settings_summary" />
+        </activity>
+
+        <activity android:name="Settings$SuperUserActivity"
+            android:label="@string/superuser_title"
+            android:icon="@drawable/ic_settings_superuser"
+            android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="2">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.elixir" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.SuperUser" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/superuser_settings_summary" />
         </activity>
 
         <activity android:name="Settings$DisplaySettingsActivity"
@@ -1318,6 +1339,11 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.applications.AppOpsSummary" />
+<<<<<<< HEAD
+=======
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/appops_settings_summary" />
+>>>>>>> 43e4822... Add summary to our custom dashboard tiles
         </activity>
 
         <activity android:name="Settings$BackgroundCheckSummaryActivity"

@@ -14,9 +14,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Nitrogen Settings -->
-    <string name="nitrogen_settings_title">Персонализация</string>
+    <!-- Elixir Settings -->
+    <string name="elixir_settings_title">Персонализация</string>
     <string name="header_category_elixir">Опции Elixir OS</string>
+    <string name="elixir_settings_summary">Дополнительные настройки</string>
+    <string name="superuser_settings_summary">Root доступ</string>
+    <string name="appops_settings_summary">Разрешения для приложений</string>
 
     <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
