@@ -69,7 +69,7 @@ public class AmbientSettings extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.NITROGEN_SETTINGS;
+        return MetricsEvent.ELIXIR_SETTINGS;
     }
 
     @Override
