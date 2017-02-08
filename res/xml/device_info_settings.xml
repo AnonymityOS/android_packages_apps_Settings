@@ -34,10 +34,6 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
 
-        <!-- Elixir Logo Header -->
-        <PreferenceScreen android:key="elixir_logo"
-                android:layout="@layout/elixir_logo_alpha" />
-
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
